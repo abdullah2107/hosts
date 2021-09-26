@@ -37,15 +37,19 @@
  paym=bt-pf;
  
  fnl1=bt-ef1;
+ fnl1ok = fnl1.toFixed(2);
  fnl2=bt-ef2;
+ fnl2ok = fnl2.toFixed(2);
  
  untg1=fnl1-modal;
+ untg1ok = untg1.toFixed(2);
  untg2=fnl2-modal;
+ untg2ok = untg2.toFixed(2);
  
- form.sblmtanpaoa.value = fnl1;
- form.sblmdenganoa.value = fnl2;
- form.stlhtanpaoa.value = untg1;
- form.stlhdenganoa.value = untg2;
+ form.sblmtanpaoa.value = fnl1ok;
+ form.sblmdenganoa.value = fnl2ok;
+ form.stlhtanpaoa.value = untg1ok;
+ form.stlhdenganoa.value = untg2ok;
  }
 
  function reset() {
